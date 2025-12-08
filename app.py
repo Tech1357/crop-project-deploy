@@ -10,7 +10,7 @@ import json
 
 # --- API CONFIGURATION ---
 # ⚠️ PASTE YOUR GOOGLE GEMINI API KEY BELOW
-GOOGLE_API_KEY = "AIzaSyCjq5fG0l3PFcs7EQNL3snTsFX1R9AJyWk"
+GOOGLE_API_KEY = "API_KEY"
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(
@@ -1371,4 +1371,5 @@ if submitted:
                         st.write(f"**{val:.2f}%**")
 
         except Exception as e:
+
             st.error(f"Error: {e}")
